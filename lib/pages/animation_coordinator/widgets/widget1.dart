@@ -1,4 +1,4 @@
-import 'package:coordinator/load_animation_controller.dart';
+import 'package:coordinator/pages/animation_coordinator/widgets/load_animation_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,7 +11,7 @@ class Widget1 extends StatefulWidget {
   State<Widget1> createState() => _Widget1State();
 }
 
-class _Widget1State extends State<Widget1> with SingleTickerProviderStateMixin {
+class _Widget1State extends State<Widget1> {
   late Widget1ViewModel _viewModel;
 
   @override
